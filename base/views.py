@@ -5,7 +5,10 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from .models import Task
 
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, LogoutView
+
+class CustomLogout(LogoutView):
+    next_page = 'login'
 
 class CustomLogin(LoginView):
     template_name = 'base/login.html'
