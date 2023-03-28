@@ -7,7 +7,6 @@ from .models import Task
 
 from django.contrib.auth.views import LoginView
 
-
 class CustomLogin(LoginView):
     template_name = 'base/login.html'
     fields = '__all__'
@@ -15,6 +14,8 @@ class CustomLogin(LoginView):
 
     def get_success_url(self):
         return reverse_lazy('tasks')
+
+
 
 class TaskList(ListView):
     model = Task
