@@ -17,7 +17,6 @@
     </div>
 </div>
 
-<hr>
 
 <!-- <h1>My to do list</h1>
 <a href="{% url 'task-create' %}">Add Task</a>
@@ -37,7 +36,7 @@
             <a class="delete-link" href="{% url 'task-delete' task.id %}">&#215</a>
             {% else %}
             <div class="task-title">
-                <div class="task-complete-icon"></div>
+                <div class="task-incomplete-icon"></div>
                 <a href="{% url 'task-update' task.id %}">{{task}}</a>
             </div>
             <a class="delete-link" href="{% url 'task-delete' task.id %}">&#215</a>
@@ -45,6 +44,8 @@
         </div>
     {% endfor %}
 </div>
+
+{% endblock content %}
 
 
 <table>
@@ -62,6 +63,3 @@
         <h3>No items in list</h3>
     {% endfor %}
 </table>
-
-
-{% endblock content %}
