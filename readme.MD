@@ -1,14 +1,12 @@
 [![Project Views](https://hits.sh/github.com/wsamio/Todo_app.svg)](https://hits.sh/github.com/wsamio/Todo_app/)
 
-
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/team-1229/diagrams/todo-app/embed"></iframe> 
-
 # Todo App using Django
 <br>
 
-### Things Learned :
+### Things Learned
 - Building Apps, Views, Urls
 - Building Database / Models
+- One to many relationship
 - Class based View
 - CRUD (create, read, update, delete) operation
 - Search Pagination
@@ -18,7 +16,12 @@
 <hr>
 <br>
 
-### Project Screenshots :
+### Database Schema
+
+![Capture](https://user-images.githubusercontent.com/125558428/228927394-2b8944ec-19f6-445d-be47-d0600eb2c2d0.PNG)
+
+
+### Project Screenshots
 
 **Register**
 
