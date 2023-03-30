@@ -1,3 +1,5 @@
+[![Project views](https://hits.sh/github.com/silentsoft/hits.svg)](https://github.com/wsamio/Todo_app)
+
 # Todo App using Django
 <br>
 
