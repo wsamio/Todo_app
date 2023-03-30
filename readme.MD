@@ -13,12 +13,6 @@
 <hr>
 <br>
 
-### Functionality
-
-![todo](https://user-images.githubusercontent.com/125558428/228901755-ff361349-81da-44e4-bf56-87ff23b422c3.gif)
-<hr>
-<br>
-
 ### Project Screenshots :
 
 **Register**
