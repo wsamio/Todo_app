@@ -1,4 +1,4 @@
-[![Project Views](https://hits.sh/github.com/wsamio/Todo_app.svg)](https://hits.sh/github.com/wsamio/Todo_app/)
+[![Project Views](https://hits.sh/github.com/wsamio/Todo_app.svg?style=for-the-badge&label=Total%20views)](https://hits.sh/github.com/wsamio/Todo_app/)
 
 # Todo App using Django
 <br>
